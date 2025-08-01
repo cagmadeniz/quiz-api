@@ -36,7 +36,7 @@ Sunucu varsayılan olarak `http://localhost:3000` adresinde çalışır.
 Tüm soruları getirir.
 
 #### Yanıt:
-
+```json
 [
     {
         "id": 1,
@@ -94,3 +94,4 @@ Tüm soruları getirir.
         "correctAnswer": "B"
     }
 ]
+```
