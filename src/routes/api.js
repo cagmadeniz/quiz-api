@@ -66,7 +66,7 @@ router.post('/reset', (req, res) => {
   session.score = 0;
   session.currentQuestion = null;
   session.questionStartTime = null;
-  res.json({ message: 'Quiz sıfırlandı' });
+  res.json({ message: 'Quiz skoru sıfırlandı' });
 });
 
 module.exports = router;
